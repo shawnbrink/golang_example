@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<title>Go Example</title>
+	<link href="/public/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="/public/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
+	
+<style type="text/css">
+    .jc-example{
+    	margin: 20px;
+    }
+    .bs-callout {
+		padding: 20px;
+		margin: 20px 0;
+		border: 1px solid #eee;
+		border-left-width: 5px;
+		border-radius: 3px;
+	}
+</style>
+</head>
+<body>
+	<div class="col-md-9" role="main">
+		<div class="bs-docs-section">
+			<div class="bs-callout bs-callout-info">
+			   <h4>Go Example for Jump Cloud</h4>
+			   	<div id="wrapper">
+			   		<div class="alert alert-success" role="alert">{{.ResponseText}}</div>
+			   		<button type="button" id="btnnext" class="btn btn-primary">Next</button>
+			   	</div>	
+			   <form class="hide">
+			       	<div class="form-group">
+			            <label for="inputPassword">Password:</label>
+			            <input type="password" class="form-control" value="" id="inputPassword" placeholder="Password">
+			        </div>
+			        
+			        <button type="submit" class="btn btn-primary">Submit</button>
+
+		    	</form>
+		    	<div class="alert alert-success hide" id="sha" role="alert"></div>
+			</div>
+		</div>
+  	</div>
+  <script type="text/javascript" src="/public/bower_components/jquery/dist/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="/public/bower_components/bootstrap/dist/js/bootstrap.min.js">
+	</script>
+	<script type="text/javascript" src="/public/js/main.js">
+	</script>
+
+</html>

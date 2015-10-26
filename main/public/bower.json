@@ -1,0 +1,11 @@
+{
+  "name": "go_example",
+  "version": "1.0.0",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
